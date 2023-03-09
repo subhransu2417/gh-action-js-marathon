@@ -1,0 +1,30 @@
+{
+  "name": "gh-action-js-marathon",
+  "version": "1.0.0",
+  "description": "github action project",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhransu2417/gh-action-js-marathon.git"
+  },
+  "author": "subhransu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhransu2417/gh-action-js-marathon/issues"
+  },
+  "homepage": "https://github.com/subhransu2417/gh-action-js-marathon#readme",
+  "devDependencies": {
+    "@types/dedent": "^0.7.0",
+    "@types/node": "^18.15.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "dedent": "^0.7.0"
+  }
+}
