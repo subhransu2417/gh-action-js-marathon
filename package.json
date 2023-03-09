@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/subhransu2417/gh-action-js-marathon#readme",
   "devDependencies": {
+    "@types/dedent": "^0.7.0",
     "@types/node": "^18.15.0",
     "typescript": "^4.9.5"
   },
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "@actions/github": "^5.1.1"
+    "@actions/github": "^5.1.1",
+    "dedent": "^0.7.0"
   }
 }
